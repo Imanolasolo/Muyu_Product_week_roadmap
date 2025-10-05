@@ -1,0 +1,14 @@
+# Roadmap Semanal - Requirements
+# Framework principal para la aplicación web
+streamlit
+
+# Base de datos SQLite (incluida en Python por defecto)
+# sqlite3 - No necesita instalación separada
+
+# Dependencias adicionales útiles para Streamlit
+plotly
+pandas
+
+# Para mejor manejo de fechas (opcional)
+python-dateutil
+

@@ -1,0 +1,2 @@
+# Dependencias mínimas para el Roadmap Semanal
+streamlit

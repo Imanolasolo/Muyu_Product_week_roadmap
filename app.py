@@ -33,10 +33,14 @@ with st.expander("🔍 Panel de Debug - Ver todas las épicas"):
         for week_data in week_counts:
             st.write(f"- {week_data[0]}: {week_data[1]} épicas")
 
-tab1, tab2 = st.tabs(["📋 Tablero", "➕ Nueva épica"])
+tab1, tab2, tab3 = st.tabs(["📋 Tablero", "➕ Nueva épica", "📊 Reportes"])
 
 with tab1:
     show_epic_board(week)
 
 with tab2:
     show_epic_form()
+
+with tab3:
+    from modules.reports_interface import show_reports_interface
+    show_reports_interface()

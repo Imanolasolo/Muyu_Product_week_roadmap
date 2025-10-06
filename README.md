@@ -11,6 +11,10 @@ Sistema de gestión de épicas y tareas para reuniones semanales de producto.
 - 🎯 **Priorización** de tareas (Alta, Media, Baja)
 - 👥 **Asignación** de responsables
 - 📅 **Gestión por semanas**
+- 📄 **Reportes PDF automáticos** con gráficos y métricas
+- 📧 **Envío automático por email** a stakeholders
+- 📈 **Análisis visual** con gráficos de progreso
+- 💡 **Recomendaciones automáticas** basadas en datos
 
 ## 🛠️ Instalación
 
@@ -36,6 +40,11 @@ streamlit run app.py
 python create_sample_data.py
 ```
 
+### Generar reportes de demostración
+```bash
+python demo_reports.py
+```
+
 ## 📁 Estructura del Proyecto
 
 ```
@@ -59,6 +68,8 @@ python create_sample_data.py
 2. **Agregar tareas**: En épicas "En progreso", usa el checklist
 3. **Completar tareas**: Marca los checkboxes para completar
 4. **Auto-completación**: Las épicas pasan automáticamente a "Hecho"
+5. **Generar reportes**: Ve a la pestaña "📊 Reportes" para crear PDFs
+6. **Enviar por email**: Configura tu email y envía automáticamente a stakeholders
 
 ## 🔧 Funcionalidades
 
@@ -77,6 +88,18 @@ python create_sample_data.py
 - Priorización con emojis (🔴🟡🟢)
 - Asignación de responsables
 - Eliminación individual
+
+### Sistema de Reportes
+- Generación automática de PDFs profesionales
+- Gráficos de progreso y métricas visuales
+- Reportes por semana específica o completos
+- Análisis automático de progreso
+
+### Envío por Email
+- Plantillas personalizadas por tipo de destinatario
+- Soporte para Gmail, Outlook, Office 365
+- Envío automático a CEOs, CTOs, stakeholders
+- Configuración de destinatarios por defecto
 
 ## 🎯 Casos de Uso
 

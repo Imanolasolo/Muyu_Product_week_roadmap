@@ -9,13 +9,14 @@ st.set_page_config(page_title="Roadmap Semanal", layout="wide")
 # Inicializar DB
 init_db()
 
-st.title("🚀 Roadmap Semanal - Reunión de Lunes")
+st.title("Roadmap Semanal - Reunión de Lunes")
 
 # Seleccionar semana
 week = st.selectbox("Selecciona la semana", ["Semana 40 - 2025", "Semana 41 - 2025", "Semana 42 - 2025"])
 
 # Agregar panel de debug expandible
-with st.expander("🔍 Panel de Debug - Ver todas las épicas"):
+with st.expander("" \
+"Panel de Debug - Ver todas las épicas"):
     all_epics = get_all_epics()
     st.write(f"**Total de épicas en la base de datos:** {len(all_epics)}")
     
